@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container ms-5 shadow w-50 mt-5 pt-2">
+    <h1>Update Form</h1>
+    <form method="POST" class="pt-3">
+    {% csrf_token %}
+    {{f.as_p}}
+    <button type="submit" class="btn btn-success mb-3 mt-3">Confirm</button>
+    </form>
+</div>
+
+
+{% endblock %}

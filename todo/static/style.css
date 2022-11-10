@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+.banner{
+    background-color:#ee59a1;
+    width:100%;
+    height:200px;
+    margin-bottom:20px
+}
+.banner-text{
+    top:15%;
+    left:44%;
+    position:absolute;
+    transform:transform;
+    font-family: 'Fasthand', cursive;
+}
+.banner-text h1{
+font-size:60px;
+}
